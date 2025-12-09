@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM_JS.</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<header class="site-header">
+    <div class="container nav">
+        <a class="brand" href="index.html" aria-label="На главную">
+            <img src="../imgs/films/marvel_logo.png" alt="Marvel" width="100">
+            <span>Marvel Hub</span>
+        </a>
+        <nav class="nav-links">
+            <a data-href="index.html" href="index.html">Главная</a>
+            <a data-href="characters.html" href="characters.html">Персонажи</a>
+            <a data-href="Films.html" href="Films.html">Хронология</a>
+            <a data-href="Films.html#phase1" href="Films.html#phase1">1 фаза</a>
+            <a data-href="forms.html" href="forms.html">Формы</a>
+            <a data-href="dom_read.html" class="active" href="dom_read.html">DOM_JS</a>
+            <a data-href="algorithm.html" href="algorithm.html">Алгоритм</a>
+            <a href="https://www.marvel.com/movies" target="_blank" rel="noopener">Marvel</a>
+        </nav>
+    </div>
+</header>
+<main class="container">
+    <h1>DOM_JS.</h1>
+
+    <div class="grid">
+        <section class="col-6 card">
+            <div class="passport" id="passport">
+                <p class="issuing-date passport-text">01.10.2024</p>
+                <p class="unit-code passport-text">770-055</p>
+                <p class="surname passport-text ru">Умертаев</p>
+                <p class="name passport-text ru">Арслан</p>
+                <p class="patronymic passport-text ru">Наушанович</p>
+                <p class="birthday passport-text">29.08.2004</p>
+                <img src="../imgs/passport.jpg" alt="passport-photo" class="passport-photo">
+            </div>
+            <div class="form-actions" style="margin-top:12px; display:flex; gap:10px;">
+                <button id="toLatin">В латиницу</button>
+                <button id="toCyr" class="secondary">В кириллицу</button>
+            </div>
+            <script src="assets/js/dom_event.js"></script>
+        </section>
+
+        <section class="col-6 card">
+            <h2>Данные паспорта</h2>
+            <p><span>Фамилия: </span><span class="ru">Умертаев</span></p>
+            <p><span>Имя: </span><span class="ru">Арслан</span></p>
+            <p><span>Отчество: </span><span class="ru">Наушанович</span></p>
+            <p><span>Дата рождения: </span><span class="ru">29.08.2004</span></p>
+        </section>
+
+        <section class="col-12 card">
+            <h2>Скриншот из DevTools</h2>
+            <img src="assets/screens/dom_read.png"
+                 alt="Скриншот чтения из DOM">
+        </section>
+    </div>
+</main>
+
+<footer class="site-footer">
+    <div class="container">Marvel Hub</div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>

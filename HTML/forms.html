@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Формы — Marvel Hub</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<header class="site-header">
+    <div class="container nav">
+        <a class="brand" href="index.html" aria-label="На главную">
+            <img src="../imgs/films/marvel_logo.png" alt="Marvel" width="100">
+            <span>Marvel Hub</span>
+        </a>
+        <nav class="nav-links">
+            <a href="index.html">Главная</a>
+            <a href="characters.html">Персонажи</a>
+            <a href="Films.html">Хронология</a>
+            <a href="Films.html#phase1">1 фаза</a>
+            <a href="forms.html" class="active">Формы</a>
+            <a href="dom_read.html">DOM_JS</a>
+            <a href="algorithm.html">Алгоритм</a>
+            <a href="https://www.marvel.com/movies" target="_blank" rel="noopener">Marvel</a>
+        </nav>
+    </div>
+</header>
+
+<main class="container">
+    <h1>Формы Marvel Hub</h1>
+    <div class="grid">
+
+        <section class="col-6 card">
+            <h2>Контактная форма</h2>
+            <form action="https://httpbin.org/post" method="post">
+                <div class="field">
+                    <label for="lastName">Фамилия</label>
+                    <input type="text" id="lastName" name="lastName" value="Иванов" required>
+                </div>
+                <div class="field">
+                    <label for="firstName">Имя</label>
+                    <input type="text" id="firstName" name="firstName" value="Иван" required>
+                </div>
+                <div class="field">
+                    <label for="group">Группа</label>
+                    <input type="text" id="group" name="group" value="ИС-23-4" placeholder="ИС-23-4">
+                </div>
+                <div class="field">
+                    <label for="phone">Мобильный телефон</label>
+                    <input type="tel" id="phone" name="phone" value="+7 (999) 123-45-67" placeholder="+7 (999) 123-45-67">
+                </div>
+                <div class="field">
+                    <label for="email">Электронная почта</label>
+                    <input type="email" id="email" name="email" value="example@mail.com" placeholder="example@mail.com">
+                </div>
+                <div class="field">
+                    <label for="sentDate">Дата отправки сообщения</label>
+                    <input type="date" id="sentDate" name="sentDate" value="2024-01-15">
+                </div>
+                <input type="hidden" name="formType" value="contact">
+                <input type="submit" value="Отправить контактные данные">
+            </form>
+        </section>
+
+        <section class="col-6 card">
+            <h2>Marvel-форма</h2>
+            <form action="https://httpbin.org/post" method="post">
+                <div class="field">
+                    <label for="alias">Кем бы ты был в КВМ (псевдоним)</label>
+                    <input type="text" id="alias" name="alias" value="Железный Стажёр" placeholder="Железный Стажёр" required>
+                </div>
+                <div class="field">
+                    <label for="powers">Твои суперспособности</label>
+                    <textarea id="powers" name="powers" rows="3" placeholder="Например: управление временем, полёт...">Управление временем, полёт, суперсила</textarea>
+                </div>
+                <div class="field">
+                    <label for="character">Любимый персонаж</label>
+                    <select id="character" name="character">
+                        <option value="IronMan" selected>Железный человек</option>
+                        <option value="SpiderMan">Человек-паук</option>
+                        <option value="Thor">Тор</option>
+                        <option value="CaptainAmerica">Капитан Америка</option>
+                        <option value="DoctorStrange">Доктор Стрэндж</option>
+                        <option value="BlackPanther">Чёрная Пантера</option>
+                        <option value="ScarletWitch">Алая Ведьма</option>
+                    </select>
+                </div>
+                <div class="field">
+                    <label><input type="checkbox" name="notify" value="yes" checked> Уведомить меня по почте</label>
+                </div>
+                <input type="hidden" name="formType" value="marvel_identity">
+                <input type="submit" value="Отправить анкету">
+            </form>
+        </section>
+
+    </div>
+</main>
+
+<footer class="site-footer">
+    <div class="container">Marvel Hub</div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>

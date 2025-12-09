@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Решение алгоритмической задачи — Треугольник</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<header class="site-header">
+    <div class="container nav">
+        <a class="brand" href="index.html" aria-label="На главную">
+            <img src="../imgs/films/marvel_logo.png" alt="Marvel" width="100">
+            <span>Marvel Hub</span>
+        </a>
+        <nav class="nav-links">
+            <a data-href="index.html" href="index.html">Главная</a>
+            <a data-href="characters.html" href="characters.html">Персонажи</a>
+            <a data-href="Films.html" href="Films.html">Хронология</a>
+            <a data-href="Films.html#phase1" href="Films.html#phase1">1 фаза</a>
+            <a data-href="forms.html" href="forms.html">Формы</a>
+            <a data-href="dom_read.html" href="dom_read.html">DOM_JS</a>
+            <a data-href="algorithm.html" href="algorithm.html">Алгоритм</a>
+            <a href="https://www.marvel.com/movies" target="_blank" rel="noopener">Marvel</a>
+        </nav>
+    </div>
+</header>
+
+<main class="container">
+    <h1>Решение алгоритмической задачи</h1>
+    <div class="card">
+        <p><strong>Задача:</strong> Даны вещественные числа X, Y, Z. Определить, существует ли треугольник с такими
+            длинами сторон и, если существует, будет ли он прямоугольным.</p>
+        <div class="grid">
+            <div class="col-6">
+                <div class="field">
+                    <label for="sideX">X</label>
+                    <input type="text" id="sideX" value="3">
+                </div>
+                <div class="field">
+                    <label for="sideY">Y</label>
+                    <input type="text" id="sideY" value="4">
+                </div>
+                <div class="field">
+                    <label for="sideZ">Z</label>
+                    <input type="text" id="sideZ" value="5">
+                </div>
+                <button onclick="solveTriangle()">Проверить</button>
+            </div>
+            <div class="col-6">
+                <div class="card">
+                    <h3>Результат</h3>
+                    <p id="result">Введите значения и нажмите «Проверить».</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<footer class="site-footer">
+    <div class="container">Marvel Hub</div>
+</footer>
+
+<script src="assets/js/algorithm.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
