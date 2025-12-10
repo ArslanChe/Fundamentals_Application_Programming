@@ -1,6 +1,6 @@
 const siteData = {
     title: 'Marvel Hub',
-    logo: 'Fundamentals_Application_Programming/imgs/films/marvel_logo.png',
+    logo: 'https://arslanche.github.io/Fundamentals_Application_Programming/imgs/films/marvel_logo.png',
     pages: [
         { id: 'index', name: 'Главная', href: 'index.html' },
         { id: 'characters', name: 'Персонажи', href: 'index.html?page=characters' },
@@ -10,81 +10,81 @@ const siteData = {
     ],
     externalLink: { name: 'Marvel', href: 'https://www.marvel.com/movies' },
     characters: [
-        { name: 'Железный человек', image: 'Fundamentals_Application_Programming/imgs/character/tony.jpg', realName: 'Тони Старк', profile: 'https://www.marvel.com/characters/iron-man-tony-stark' },
-        { name: 'Капитан Америка', image: 'Fundamentals_Application_Programming/imgs/character/steve.jpg', realName: 'Стив Роджерс', profile: 'https://www.marvel.com/characters/captain-america-steve-rogers' },
-        { name: 'Чёрная Вдова', image: 'Fundamentals_Application_Programming/imgs/character/Natasha.jpg', realName: 'Наташа Романофф', profile: 'https://www.marvel.com/characters/black-widow-natasha-romanoff' },
-        { name: 'Тор', image: 'Fundamentals_Application_Programming/imgs/character/Тор.jpg', realName: 'Тор Одинсон', profile: 'https://www.marvel.com/characters/thor-thor-odinson' },
-        { name: 'Человек-паук', image: 'Fundamentals_Application_Programming/imgs/character/Peter.jpeg', realName: 'Питер Паркер', profile: 'https://www.marvel.com/characters/spider-man-peter-parker' },
-        { name: 'Халк', image: 'Fundamentals_Application_Programming/imgs/character/Hulk.jpg', realName: 'Брюс Бэннер', profile: 'https://www.marvel.com/characters/hulk-bruce-banner' },
-        { name: 'Соколиный Глаз', image: 'Fundamentals_Application_Programming/imgs/character/Eye.webp', realName: 'Клинт Бартон', profile: 'https://www.marvel.com/characters/hawkeye-clint-barton' },
-        { name: 'Чёрная Пантера', image: 'Fundamentals_Application_Programming/imgs/character/Тчала.jpg', realName: 'Т\'Чалла', profile: 'https://www.marvel.com/characters/black-panther-t-challa' },
-        { name: 'Доктор Стрэндж', image: 'Fundamentals_Application_Programming/imgs/character/Steven.jpeg', realName: 'Стивен Стрэндж', profile: 'https://www.marvel.com/characters/doctor-strange-stephen-strange' },
-        { name: 'Капитан Марвел', image: 'Fundamentals_Application_Programming/imgs/character/Marvel.webp', realName: 'Кэрол Дэнверс', profile: 'https://www.marvel.com/characters/captain-marvel-carol-danvers' },
-        { name: 'Алая Ведьма', image: 'Fundamentals_Application_Programming/imgs/character/Ванда.jpg', realName: 'Ванда Максимофф', profile: 'https://www.marvel.com/characters/scarlet-witch-wanda-maximoff' },
-        { name: 'Вижн', image: 'Fundamentals_Application_Programming/imgs/character/Вижн.jpg', realName: 'Вижн', profile: 'https://www.marvel.com/characters/vision' }
+        { name: 'Железный человек', image: 'https://arslanche.github.io/Fundamentals_Application_Programming/imgs/character/tony.jpg', realName: 'Тони Старк', profile: 'https://www.marvel.com/characters/iron-man-tony-stark' },
+        { name: 'Капитан Америка', image: 'https://arslanche.github.io/Fundamentals_Application_Programming/imgs/character/steve.jpg', realName: 'Стив Роджерс', profile: 'https://www.marvel.com/characters/captain-america-steve-rogers' },
+        { name: 'Чёрная Вдова', image: 'https://arslanche.github.io/Fundamentals_Application_Programming/imgs/character/Natasha.jpg', realName: 'Наташа Романофф', profile: 'https://www.marvel.com/characters/black-widow-natasha-romanoff' },
+        { name: 'Тор', image: 'https://arslanche.github.io/Fundamentals_Application_Programming/imgs/character/Тор.jpg', realName: 'Тор Одинсон', profile: 'https://www.marvel.com/characters/thor-thor-odinson' },
+        { name: 'Человек-паук', image: 'https://arslanche.github.io/Fundamentals_Application_Programming/imgs/character/Peter.jpeg', realName: 'Питер Паркер', profile: 'https://www.marvel.com/characters/spider-man-peter-parker' },
+        { name: 'Халк', image: 'https://arslanche.github.io/Fundamentals_Application_Programming/imgs/character/Hulk.jpg', realName: 'Брюс Бэннер', profile: 'https://www.marvel.com/characters/hulk-bruce-banner' },
+        { name: 'Соколиный Глаз', image: 'https://arslanche.github.io/Fundamentals_Application_Programming/imgs/character/Eye.webp', realName: 'Клинт Бартон', profile: 'https://www.marvel.com/characters/hawkeye-clint-barton' },
+        { name: 'Чёрная Пантера', image: 'https://arslanche.github.io/Fundamentals_Application_Programming/imgs/character/Тчала.jpg', realName: 'Т\'Чалла', profile: 'https://www.marvel.com/characters/black-panther-t-challa' },
+        { name: 'Доктор Стрэндж', image: 'https://arslanche.github.io/Fundamentals_Application_Programming/imgs/character/Steven.jpeg', realName: 'Стивен Стрэндж', profile: 'https://www.marvel.com/characters/doctor-strange-stephen-strange' },
+        { name: 'Капитан Марвел', image: 'https://arslanche.github.io/Fundamentals_Application_Programming/imgs/character/Marvel.webp', realName: 'Кэрол Дэнверс', profile: 'https://www.marvel.com/characters/captain-marvel-carol-danvers' },
+        { name: 'Алая Ведьма', image: 'https://arslanche.github.io/Fundamentals_Application_Programming/imgs/character/Ванда.jpg', realName: 'Ванда Максимофф', profile: 'https://www.marvel.com/characters/scarlet-witch-wanda-maximoff' },
+        { name: 'Вижн', image: 'https://arslanche.github.io/Fundamentals_Application_Programming/imgs/character/Вижн.jpg', realName: 'Вижн', profile: 'https://www.marvel.com/characters/vision' }
     ],
     phases: [
         {
             id: 'phase1',
             name: '1 фаза',
             films: [
-                { title: 'Железный человек', image: 'Fundamentals_Application_Programming/imgs/films/iron_man_1.webp', link: 'https://www.kinopoisk.ru/film/61237/' },
-                { title: 'Невероятный Халк', image: 'Fundamentals_Application_Programming/imgs/films/hulk.webp', link: 'https://www.kinopoisk.ru/film/255380/' },
-                { title: 'Тор', image: 'Fundamentals_Application_Programming/imgs/films/Thor_1.webp', link: 'https://www.kinopoisk.ru/film/258941/' },
-                { title: 'Первый мститель', image: 'Fundamentals_Application_Programming/imgs/films/Cap_America_1.webp', link: 'https://www.kinopoisk.ru/film/160946/' },
-                { title: 'Мстители', image: 'Fundamentals_Application_Programming/imgs/films/Avengers_1.webp', link: 'https://www.kinopoisk.ru/film/263531/' }
+                { title: 'Железный человек', image: 'https://arslanche.github.io/Fundamentals_Application_Programming/imgs/films/iron_man_1.webp', link: 'https://www.kinopoisk.ru/film/61237/' },
+                { title: 'Невероятный Халк', image: 'https://arslanche.github.io/Fundamentals_Application_Programming/imgs/films/hulk.webp', link: 'https://www.kinopoisk.ru/film/255380/' },
+                { title: 'Тор', image: 'https://arslanche.github.io/Fundamentals_Application_Programming/imgs/films/Thor_1.webp', link: 'https://www.kinopoisk.ru/film/258941/' },
+                { title: 'Первый мститель', image: 'https://arslanche.github.io/Fundamentals_Application_Programming/imgs/films/Cap_America_1.webp', link: 'https://www.kinopoisk.ru/film/160946/' },
+                { title: 'Мстители', image: 'https://arslanche.github.io/Fundamentals_Application_Programming/imgs/films/Avengers_1.webp', link: 'https://www.kinopoisk.ru/film/263531/' }
             ]
         },
         {
             id: 'phase2',
             name: '2 фаза',
             films: [
-                { title: 'Железный человек 2', image: 'Fundamentals_Application_Programming/imgs/films/iron_man_2.webp', link: 'https://www.kinopoisk.ru/film/411924/' },
-                { title: 'Тор 2: Царство тьмы', image: 'Fundamentals_Application_Programming/imgs/films/Thor_2.webp', link: 'https://www.kinopoisk.ru/film/595938/' },
-                { title: 'Первый мститель: Другая война', image: 'Fundamentals_Application_Programming/imgs/films/Cap_America_2.webp', link: 'https://www.kinopoisk.ru/film/676266/' },
-                { title: 'Стражи Галактики', image: 'Fundamentals_Application_Programming/imgs/films/Guardians_1.webp', link: 'https://www.kinopoisk.ru/film/689066/' },
-                { title: 'Мстители: Эра Альтрона', image: 'Fundamentals_Application_Programming/imgs/films/Avengers_2.webp', link: 'https://www.kinopoisk.ru/film/679830/' },
-                { title: 'Человек-муравей', image: 'Fundamentals_Application_Programming/imgs/films/ant_man_1.webp', link: 'https://www.kinopoisk.ru/film/195496/' }
+                { title: 'Железный человек 2', image: 'https://arslanche.github.io/Fundamentals_Application_Programming/imgs/films/iron_man_2.webp', link: 'https://www.kinopoisk.ru/film/411924/' },
+                { title: 'Тор 2: Царство тьмы', image: 'https://arslanche.github.io/Fundamentals_Application_Programming/imgs/films/Thor_2.webp', link: 'https://www.kinopoisk.ru/film/595938/' },
+                { title: 'Первый мститель: Другая война', image: 'https://arslanche.github.io/Fundamentals_Application_Programming/imgs/films/Cap_America_2.webp', link: 'https://www.kinopoisk.ru/film/676266/' },
+                { title: 'Стражи Галактики', image: 'https://arslanche.github.io/Fundamentals_Application_Programming/imgs/films/Guardians_1.webp', link: 'https://www.kinopoisk.ru/film/689066/' },
+                { title: 'Мстители: Эра Альтрона', image: 'https://arslanche.github.io/Fundamentals_Application_Programming/imgs/films/Avengers_2.webp', link: 'https://www.kinopoisk.ru/film/679830/' },
+                { title: 'Человек-муравей', image: 'https://arslanche.github.io/Fundamentals_Application_Programming/imgs/films/ant_man_1.webp', link: 'https://www.kinopoisk.ru/film/195496/' }
             ]
         },
         {
             id: 'phase3',
             name: '3 фаза',
             films: [
-                { title: 'Первый мститель: Противостояние', image: 'Fundamentals_Application_Programming/imgs/films/Cap_America_3.webp', link: 'https://www.kinopoisk.ru/film/822708/' },
-                { title: 'Доктор Стрэндж', image: 'Fundamentals_Application_Programming/imgs/films/Strange_1.webp', link: 'https://www.kinopoisk.ru/film/409600/' },
-                { title: 'Стражи Галактики. Часть 2', image: 'Fundamentals_Application_Programming/imgs/films/Guardians_2.webp', link: 'https://www.kinopoisk.ru/film/841263/' },
-                { title: 'Человек-паук: Возвращение домой', image: 'Fundamentals_Application_Programming/imgs/films/Spider-Man_1.webp', link: 'https://www.kinopoisk.ru/film/690593/' },
-                { title: 'Тор: Рагнарёк', image: 'Fundamentals_Application_Programming/imgs/films/Thor_3.webp', link: 'https://www.kinopoisk.ru/film/822709/' },
-                { title: 'Чёрная Пантера', image: 'Fundamentals_Application_Programming/imgs/films/Panter.webp', link: 'https://www.kinopoisk.ru/film/623250/' },
-                { title: 'Мстители: Война бесконечности', image: 'Fundamentals_Application_Programming/imgs/films/Avengers_3.webp', link: 'https://www.kinopoisk.ru/film/843649/' },
-                { title: 'Человек-муравей и Оса', image: 'Fundamentals_Application_Programming/imgs/films/Ant_man_Wasp.webp', link: 'https://www.kinopoisk.ru/film/935940/' },
-                { title: 'Капитан Марвел', image: 'Fundamentals_Application_Programming/imgs/films/Cap_Marvel.webp', link: 'https://www.kinopoisk.ru/film/843859/' },
-                { title: 'Мстители: Финал', image: 'Fundamentals_Application_Programming/imgs/films/Avengers_4.webp', link: 'https://www.kinopoisk.ru/film/843650/' },
-                { title: 'Человек-паук: Вдали от дома', image: 'Fundamentals_Application_Programming/imgs/films/Spider-Man_2.webp', link: 'https://www.kinopoisk.ru/film/1008445/' }
+                { title: 'Первый мститель: Противостояние', image: 'https://arslanche.github.io/Fundamentals_Application_Programming/imgs/films/Cap_America_3.webp', link: 'https://www.kinopoisk.ru/film/822708/' },
+                { title: 'Доктор Стрэндж', image: 'https://arslanche.github.io/Fundamentals_Application_Programming/imgs/films/Strange_1.webp', link: 'https://www.kinopoisk.ru/film/409600/' },
+                { title: 'Стражи Галактики. Часть 2', image: 'https://arslanche.github.io/Fundamentals_Application_Programming/imgs/films/Guardians_2.webp', link: 'https://www.kinopoisk.ru/film/841263/' },
+                { title: 'Человек-паук: Возвращение домой', image: 'https://arslanche.github.io/Fundamentals_Application_Programming/imgs/films/Spider-Man_1.webp', link: 'https://www.kinopoisk.ru/film/690593/' },
+                { title: 'Тор: Рагнарёк', image: 'https://arslanche.github.io/Fundamentals_Application_Programming/imgs/films/Thor_3.webp', link: 'https://www.kinopoisk.ru/film/822709/' },
+                { title: 'Чёрная Пантера', image: 'https://arslanche.github.io/Fundamentals_Application_Programming/imgs/films/Panter.webp', link: 'https://www.kinopoisk.ru/film/623250/' },
+                { title: 'Мстители: Война бесконечности', image: 'https://arslanche.github.io/Fundamentals_Application_Programming/imgs/films/Avengers_3.webp', link: 'https://www.kinopoisk.ru/film/843649/' },
+                { title: 'Человек-муравей и Оса', image: 'https://arslanche.github.io/Fundamentals_Application_Programming/imgs/films/Ant_man_Wasp.webp', link: 'https://www.kinopoisk.ru/film/935940/' },
+                { title: 'Капитан Марвел', image: 'https://arslanche.github.io/Fundamentals_Application_Programming/imgs/films/Cap_Marvel.webp', link: 'https://www.kinopoisk.ru/film/843859/' },
+                { title: 'Мстители: Финал', image: 'https://arslanche.github.io/Fundamentals_Application_Programming/imgs/films/Avengers_4.webp', link: 'https://www.kinopoisk.ru/film/843650/' },
+                { title: 'Человек-паук: Вдали от дома', image: 'https://arslanche.github.io/Fundamentals_Application_Programming/imgs/films/Spider-Man_2.webp', link: 'https://www.kinopoisk.ru/film/1008445/' }
             ]
         },
         {
             id: 'phase4',
             name: '4 фаза',
             films: [
-                { title: 'Чёрная Вдова', image: 'Fundamentals_Application_Programming/imgs/films/Widow.webp', link: 'https://www.kinopoisk.ru/film/823956/' },
-                { title: 'Шан-Чи и легенда десяти колец', image: 'Fundamentals_Application_Programming/imgs/films/Shan_Chi.webp', link: 'https://www.kinopoisk.ru/film/1219149/' },
-                { title: 'Вечные', image: 'Fundamentals_Application_Programming/imgs/films/Eternals.webp', link: 'https://www.kinopoisk.ru/film/1198811/' },
-                { title: 'Человек-паук: Нет пути домой', image: 'Fundamentals_Application_Programming/imgs/films/Spider-Man_3.webp', link: 'https://www.kinopoisk.ru/film/1309570/' },
-                { title: 'Доктор Стрэндж: В мультивселенной безумия', image: 'Fundamentals_Application_Programming/imgs/films/Strange_2.webp', link: 'https://www.kinopoisk.ru/film/1219909/' },
-                { title: 'Тор: Любовь и гром', image: 'Fundamentals_Application_Programming/imgs/films/Thor_4.jpg', link: 'https://www.kinopoisk.ru/film/1282688/' },
-                { title: 'Чёрная Пантера: Ваканда навеки', image: 'Fundamentals_Application_Programming/imgs/films/Panter_2.webp', link: 'https://www.kinopoisk.ru/film/1199773/' }
+                { title: 'Чёрная Вдова', image: 'https://arslanche.github.io/Fundamentals_Application_Programming/imgs/films/Widow.webp', link: 'https://www.kinopoisk.ru/film/823956/' },
+                { title: 'Шан-Чи и легенда десяти колец', image: 'https://arslanche.github.io/Fundamentals_Application_Programming/imgs/films/Shan_Chi.webp', link: 'https://www.kinopoisk.ru/film/1219149/' },
+                { title: 'Вечные', image: 'https://arslanche.github.io/Fundamentals_Application_Programming/imgs/films/Eternals.webp', link: 'https://www.kinopoisk.ru/film/1198811/' },
+                { title: 'Человек-паук: Нет пути домой', image: 'https://arslanche.github.io/Fundamentals_Application_Programming/imgs/films/Spider-Man_3.webp', link: 'https://www.kinopoisk.ru/film/1309570/' },
+                { title: 'Доктор Стрэндж: В мультивселенной безумия', image: 'https://arslanche.github.io/Fundamentals_Application_Programming/imgs/films/Strange_2.webp', link: 'https://www.kinopoisk.ru/film/1219909/' },
+                { title: 'Тор: Любовь и гром', image: 'https://arslanche.github.io/Fundamentals_Application_Programming/imgs/films/Thor_4.jpg', link: 'https://www.kinopoisk.ru/film/1282688/' },
+                { title: 'Чёрная Пантера: Ваканда навеки', image: 'https://arslanche.github.io/Fundamentals_Application_Programming/imgs/films/Panter_2.webp', link: 'https://www.kinopoisk.ru/film/1199773/' }
             ]
         },
         {
             id: 'phase5',
             name: '5 фаза',
             films: [
-                { title: 'Человек-муравей и Оса: Квантомания', image: 'Fundamentals_Application_Programming/imgs/films/Ant_man_3.webp', link: 'https://www.kinopoisk.ru/film/1318868/' },
-                { title: 'Стражи Галактики. Часть 3', image: 'Fundamentals_Application_Programming/imgs/films/Guardians_3.jpg', link: 'https://www.kinopoisk.ru/film/1044280/' },
-                { title: 'Капитан Марвел 2 (Марвелы)', image: 'Fundamentals_Application_Programming/imgs/films/Cap_marvel_2.webp', link: 'https://www.kinopoisk.ru/film/1287544/' },
-                { title: 'Капитан Америка: Новый мир', image: 'Fundamentals_Application_Programming/imgs/films/Cap_America_4.webp', link: 'https://www.kinopoisk.ru/film/4443920/' }
+                { title: 'Человек-муравей и Оса: Квантомания', image: 'https://arslanche.github.io/Fundamentals_Application_Programming/imgs/films/Ant_man_3.webp', link: 'https://www.kinopoisk.ru/film/1318868/' },
+                { title: 'Стражи Галактики. Часть 3', image: 'https://arslanche.github.io/Fundamentals_Application_Programming/imgs/films/Guardians_3.jpg', link: 'https://www.kinopoisk.ru/film/1044280/' },
+                { title: 'Капитан Марвел 2 (Марвелы)', image: 'https://arslanche.github.io/Fundamentals_Application_Programming/imgs/films/Cap_marvel_2.webp', link: 'https://www.kinopoisk.ru/film/1287544/' },
+                { title: 'Капитан Америка: Новый мир', image: 'https://arslanche.github.io/Fundamentals_Application_Programming/imgs/films/Cap_America_4.webp', link: 'https://www.kinopoisk.ru/film/4443920/' }
             ]
         },
         {
@@ -159,9 +159,9 @@ const generateFooter = () => {
     const text = createElement('span', '', siteData.title);
     container.appendChild(text);
 
-    const logoLink = createLink('Fundamentals_Application_Programming/imgs/films/marvel_logo.webp', '', '', '_blank');
+    const logoLink = createLink('https://arslanche.github.io/Fundamentals_Application_Programming/imgs/films/marvel_logo.webp', '', '', '_blank');
     const logoImg = createElement('img');
-    logoImg.src = 'Fundamentals_Application_Programming/imgs/films/marvel_logo.webp';
+    logoImg.src = 'https://arslanche.github.io/Fundamentals_Application_Programming/imgs/films/marvel_logo.webp';
     logoImg.alt = 'Marvel постер';
     logoImg.width = 100;
     logoImg.height = 67;
