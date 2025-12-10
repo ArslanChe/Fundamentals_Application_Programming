@@ -1,6 +1,6 @@
 const siteData = {
     title: 'Marvel Hub',
-    logo: '/imgs/films/marvel_logo.png',
+    logo: 'imgs/films/marvel_logo.png',
 
     pages: [
         { id: 'index', name: 'Главная', href: 'index.html' },
@@ -11,9 +11,9 @@ const siteData = {
     ],
     externalLink: { name: 'Marvel', href: 'https://www.marvel.com/movies' },
     characters: [
-        { name: 'Железный человек', image: '../imgs/character/tony.jpg', realName: 'Тони Старк', profile: 'https://www.marvel.com/characters/iron-man-tony-stark' },
+        { name: 'Железный человек', image: '/imgs/character/tony.jpg', realName: 'Тони Старк', profile: 'https://www.marvel.com/characters/iron-man-tony-stark' },
         { name: 'Капитан Америка', image: '../imgs/character/steve.jpg', realName: 'Стив Роджерс', profile: 'https://www.marvel.com/characters/captain-america-steve-rogers' },
-        { name: 'Чёрная Вдова', image: '../imgs/character/Natasha.jpg', realName: 'Наташа Романофф', profile: 'https://www.marvel.com/characters/black-widow-natasha-romanoff' },
+        { name: 'Чёрная Вдова', image: 'Fundamentals_Application_Programming/imgs/character/Natasha.jpg', realName: 'Наташа Романофф', profile: 'https://www.marvel.com/characters/black-widow-natasha-romanoff' },
         { name: 'Тор', image: '../imgs/character/Тор.jpg', realName: 'Тор Одинсон', profile: 'https://www.marvel.com/characters/thor-thor-odinson' },
         { name: 'Человек-паук', image: '../imgs/character/Peter.jpeg', realName: 'Питер Паркер', profile: 'https://www.marvel.com/characters/spider-man-peter-parker' },
         { name: 'Халк', image: '../imgs/character/Hulk.jpg', realName: 'Брюс Бэннер', profile: 'https://www.marvel.com/characters/hulk-bruce-banner' },
