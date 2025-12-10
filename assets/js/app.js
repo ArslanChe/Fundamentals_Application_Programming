@@ -1,6 +1,7 @@
 const siteData = {
     title: 'Marvel Hub',
-    logo: '/imgs/films/marvel_logo.png',
+    logo: '/Fundamentals_Application_Programming/imgs/films/marvel_logo.png',
+
     pages: [
         { id: 'index', name: 'Главная', href: 'index.html' },
         { id: 'characters', name: 'Персонажи', href: 'index.html?page=characters' },
